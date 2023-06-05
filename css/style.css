@@ -1,0 +1,102 @@
+body {
+    background-color: #1b1e26;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark-blue {
+    background-color: #1f3a68;
+}
+
+.navbarclass {
+    margin-bottom: 15px;
+}
+
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    flex: 1;
+}
+
+.container {
+    color: white;
+    flex: 1;
+}
+
+.footerpage {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.nolink {
+    color: white;
+    text-decoration: none;
+}
+
+.table.text-white th,
+.table.text-white td {
+    color: white;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+    padding: 0 8px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px !important;
+}
+
+.delete {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttons a {
+    margin: 10px;
+}
+
+#phoneCode {
+    max-width: 100px;
+}
+
+.dropdown-item {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.unable {
+    cursor: not-allowed;
+}
+
+/* Dropdown */
